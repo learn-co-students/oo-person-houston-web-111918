@@ -19,14 +19,14 @@ class Person
   end
 
   def happy?
-    if @happiness > 7
+    if self.happiness > 7
       true
     else
       false
     end
   end
     def clean?
-      if @hygiene > 7
+      if hygiene > 7
         true
       else
         false
@@ -69,8 +69,3 @@ class Person
       end
     end
   end
-
-
-  # def bank_account
-  #
-  # end
